@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hospital-mgmt-no-sql
+  data:
+    mongodb:
+      uri: mongodb+srv://ojAsare910:r3xYZABdXYGDE543@cluster0.4tpx5vr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: hospital_mgmt
+    redis:
+      host: 192.168.56.38
+      port: 6379
+server:
+  port: 8083
+logging:
+  level:
+    org:
+      springframework:
+        application: TRACE
